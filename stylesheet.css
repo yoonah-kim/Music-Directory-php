@@ -1,0 +1,236 @@
+body {
+	background-position: center;
+	margin: 0;
+}
+
+.wrapper {
+	padding: 40px;
+	background-image: url('img/tape.png');
+	background-position: center;
+	min-height: 1000px;
+	background-repeat: repeat-y;
+}
+
+.form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 430px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: white;
+	opacity: 0.9;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+form {
+	width: 430px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 10px;
+	background: center;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+label {
+	float: left;
+	color: #1A1F1E;
+	text-transform: uppercase;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input {
+	width: 410px;
+	display: block;
+	border: none;
+	border-bottom: 1px solid black;
+	height: 40px;
+	opacity: 0.5;
+	border-color: #1A1F1E;
+	font-size: 18px;
+}
+
+#year {
+	width: 110px;
+	border-bottom: 1px solid black;
+	width: 130px;
+	margin-right: 12px;
+}
+
+#genre {
+	width: 150px;
+	margin-right: 12px;
+}
+
+#rating {
+	width: 60px;
+}
+
+.block {
+	float: left;
+}
+
+select {
+	display: block;
+	border: none;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+	font-size: 18px;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+	margin-bottom: 20px;
+}
+
+.button input {
+	width: 100px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	height: 30px;
+	border: 1px solid black;
+}
+
+.button {
+	background-color: #6CBDB5;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	height: 35px;
+	font-size: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+#navlist {
+	padding: 30px 10px 30px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#navlist li {
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	padding-right: 40px;
+	padding-left: 40px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #E9E9E9;
+}
+
+#navlist a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #BCBCBC;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+#navlist a:hover {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid #93CCC6;
+	color: #93CCC6;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Courgette', cursive;
+	margin: 10px;
+	color: #6CBDB5;
+	letter-spacing: 3px;
+}
+
+.all {
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.block {
+	padding: 5px;
+}
+
+.error {
+	color: red;
+}
+
+.searchresult {
+	background-color: white;
+	opacity: 0.9;
+	border-radius: 10px;
+	margin: 20px;
+	width: 470px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*directory css*/
+.rows {
+	text-align: center;
+	display: inline-block;
+}
+
+.song_title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	float: left;
+	padding-right: 10px;
+	letter-spacing: 1px;
+}
+
+.song_artist {
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+	float: left;
+	letter-spacing: 1px;
+	line-height: 50px;
+}
+
+.song_info {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 5px;
+	padding-bottom: 25px;
+}
+
+.whole {
+	text-align: center;
+}
+
+p {
+	color: red;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px; 
+	text-align: center;
+	padding: 10px;
+}
